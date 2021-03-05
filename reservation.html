@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/assets/chicken icon with bg.png">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <title>Chia Chicken Rice</title>
+    
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <img src="assets/chicken icon with bg.png" alt="Chia Chicken Rice" class="logo responsive-img">
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">menu</i>
+            </a>
+            <a href="#" class="brand-logo">Chia Chicken Rice</a>
+            <ul class="right hide-on-med-and-down">
+                <li> 
+                    <a href="menu.html" class="tooltipped waves-effect waves-dark" data-tooltip="View menu"><i class="left material-icons restaurant-menu ">restaurant_menu</i>Menu</a>
+                </li>
+                <li> 
+                    <a href="reservation.html" class="tooltipped waves-effect waves-dark" data-tooltip="Make a reservation"><i class="left material-icons">deck</i>Reservation</a>
+                </li>
+                <li> 
+                    <a href="#contact" class="tooltipped waves-effect waves-dark" data-tooltip="Get in touch with us"><i class="left material-icons">chat</i>Contact us</a>
+                </li>
+            </ul>
+            <ul class="sidenav" id="mobile-menu">
+                <li> 
+                    <a href="menu.html" class="waves-effect waves-dark"><i class="left material-icons">restaurant_menu</i>Menu</a>
+                </li>
+                <li> 
+                    <a href="reservation.html" class="waves-effect waves-dark"><i class="left material-icons">deck</i>Reservation</a>
+                </li>
+                <li> 
+                    <a href="#contact" class="waves-effect waves-dark"><i class="left material-icons">chat</i>Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- pic -->
+    <div class="hide-on-large-only">
+        <img src="assets/reserve.jpg" alt="Eating" class="responsive-img">
+    </div>
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax">
+            <img src="assets/reserve.jpg" alt="Eating" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- text: The modern chicken rice dining. -->
+    <div class="container center">
+        <h3 class="title">Reservation</h3>
+    </div>
+
+    <!-- form -->
+    <div class="container">
+        <ul class="center">
+            <form action="">
+                <div class="row">
+                    <div class="col s12 l2">
+                        <div class="input-field">
+                            <i class="material-icons prefix">person_pin_circle</i>
+                            <input type="text" id="salutations" placeholder="Ms./Mrs./Mr." required> 
+                            <label for="salutations">Salutations</label>
+                        </div>
+                    </div>
+                    <div class="col s12 l5">
+                        <div class="input-field">
+                            <i class="material-icons prefix">account_box</i>
+                            <input type="text" id="first_name" required>
+                            <label for="first_name">First name</label>
+                        </div>
+                    </div>
+                    <div class="col s12 l5">
+                        <div class="input-field">
+                            <i class="material-icons prefix">account_box</i>
+                            <input type="text" id="last_name" required>
+                            <label for="last_name">Last name</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 l6">
+                        <div class="input-field">
+                            <i class="material-icons prefix">stay_primary_portrait</i>
+                            <input type="tel" id="phone" required>
+                            <label for="phone">Contact number</label>
+                        </div>
+                    </div>
+                    <div class="col s12 l6">
+                        <div class="input-field">
+                            <i class="material-icons prefix">email</i>
+                            <input type="email" id="email" required>
+                            <label for="email">E-mail</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 l6">
+                        <div class="input-field">
+                            <i class="material-icons prefix">event</i>
+                            <input type="text" id="date" class="datepicker" required>
+                            <label for="date">Select a date</label>
+                        </div>
+                    </div>
+                    <div class="col s12 l6">
+                        <div class="input-field">
+                            <i class="material-icons prefix">watch_later</i>
+                            <input type="text" id="time" class="timepicker" required> 
+                            <label for="time">Select a time</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 l2">
+                        <div class="input-field">
+                            <i class="material-icons prefix">person_add</i>
+                            <input value="1" type="number" id="pax" min="1" required> 
+                            <label for="pax">No. of pax</label>
+                        </div>
+                    </div>
+                    <div class="col s12 l10">
+                        <div class="input-field">
+                            <i class="material-icons prefix">stars</i>
+                            <textarea id="special_request" class="materialize-textarea"></textarea>
+                            <label for="special_request">Special requests</label>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="input-field center">
+                    <button class="btn waves-effect waves-light">Reserve</button>
+                </div>
+            </form>
+        </ul>
+    </div>
+    
+    
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-copyright">
+            <div class="container center-align">
+                &copy; 2021 Chia Chicken Rice
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.parallax').parallax();
+            $('.datepicker').datepicker({
+                minDate: new Date()
+            });
+            $('.timepicker').timepicker();
+        });
+    </script>
+</body>
+</html>

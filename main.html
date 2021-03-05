@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/assets/chicken icon with bg.png">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <title>Chia Chicken Rice</title>
+    
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav>
+        <div class="nav-wrapper">
+            <img src="assets/chicken icon with bg.png" alt="Chia Chicken Rice" class="logo responsive-img">
+            <a href="#" class="sidenav-trigger" data-target="mobile-menu">
+                <i class="material-icons">menu</i>
+            </a>
+            <a href="#" class="brand-logo">Chia Chicken Rice</a>
+            <ul class="right hide-on-med-and-down">
+                <li> 
+                    <a href="menu.html" class="tooltipped waves-effect waves-dark" data-tooltip="View menu"><i class="left material-icons restaurant-menu ">restaurant_menu</i>Menu</a>
+                </li>
+                <li> 
+                    <a href="reservation.html" class="tooltipped waves-effect waves-dark" data-tooltip="Make a reservation"><i class="left material-icons">deck</i>Reservation</a>
+                </li>
+                <li> 
+                    <a href="#contact" class="tooltipped waves-effect waves-dark" data-tooltip="Get in touch with us"><i class="left material-icons">chat</i>Contact us</a>
+                </li>
+            </ul>
+            <ul class="sidenav" id="mobile-menu">
+                <li> 
+                    <a href="menu.html" class="waves-effect waves-dark"><i class="left material-icons">restaurant_menu</i>Menu</a>
+                </li>
+                <li> 
+                    <a href="reservation.html" class="waves-effect waves-dark"><i class="left material-icons">deck</i>Reservation</a>
+                </li>
+                <li> 
+                    <a href="#contact" class="waves-effect waves-dark"><i class="left material-icons">chat</i>Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- pic -->
+    <div class="hide-on-large-only">
+        <img src="assets/restaurant.jpg" alt="Restaurant" class="responsive-img">
+    </div>
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax">
+            <img src="assets/restaurant.jpg" alt="Restaurant" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- text: The modern chicken rice dining. -->
+    <div class="container center">
+        <h3 class="title">The modern chicken rice dining.</h3>
+        <div class="container">
+            <p class="intro">Indulge in the perfect union of traditional kopitiam style chicken rice with a touch of luxury.</p>
+        </div>
+    </div>
+
+    <!-- buttons -->
+    <div class="container flex-container">
+        <a href="menu.html" class="btn waves-effect waves-light">View menu</a>
+        <a href="reservation.html" class="btn waves-effect waves-light">Make a reservation</a>
+        <a href="main.html#contact" class="btn waves-effect waves-light">Contact us</a>
+    </div>
+
+    <!-- pic -->
+    <div class="hide-on-large-only">
+        <img src="assets/chef.jpg" alt="Chef" class="responsive-img">
+    </div>
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax">
+            <img src="assets/chef.jpg" alt="Chef" class="responsive-img">
+        </div>
+    </div>
+
+    <!-- contact -->
+    <!-- title: Contact Us -->
+    <div id="contact" class="container scrollspy">
+        <h3 class="title center">Contact Us</h3>
+        <div class="center socmed-container">
+                <a href="" class="socmed-icon btn-floating btn-large"><i class="fab fa-facebook"></i></a>
+                <a href="" class="socmed-icon btn-floating btn-large"><i class="fab fa-instagram"></i></a>
+                <a href="" class="socmed-icon btn-floating btn-large"><i class="fab fa-linkedin"></i></a>
+                <a href="" class="socmed-icon btn-floating btn-large"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-copyright">
+            <div class="container center-align">
+                &copy; 2021 Chia Chicken Rice
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+            $('.tooltipped').tooltip();
+            $('.parallax').parallax();
+            $('.scrollspy').scrollSpy();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+html, body{
+    width: 100%; height: 100%;
+  }
+
+body {
+    font-family: 'Montserrat' !important;
+    background-color: #FFE3D1;
+}
+
+.nav-wrapper { /* for header */
+    background-color: #FFB485;
+    padding-right: 20px;
+}
+
+.nav-wrapper a { /* for each header  tab */
+    color: #4E1E00;
+    font-weight: bold;
+}
+
+.nav-wrapper a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-wrapper .brand-logo { /* chia chicken rice wording */
+    font-size: 25px !important;
+    font-weight: bold;
+    color: #9B3C00;
+}
+
+.brand-logo:hover {
+    background-color: #FFB485 !important;
+
+}
+
+.logo { /* chicken logo pic */
+    max-height: 45px;
+    margin: 10px;
+    margin-left: 50px;
+}
+
+.material-tooltip {
+    background-color: #9B3C00 !important;
+    opacity: 0.5;
+}
+
+.material-tooltip .tooltip-content /* inside of tooltip (text) */
+{
+    font-size: 0.8em;
+    padding: 2px;
+    min-width: 10px;
+}
+
+.sidenav { /* mobile side nav */
+    padding-top: 20px !important;
+    background-color: #4E1E00 !important;
+}
+
+.sidenav a { 
+    color: white !important;
+}
+
+.sidenav li > a > i { /* change opacity of icons because theyre default set semi opaque*/
+    color: rgba(255, 255, 255, 1.0) !important;
+}
+
+.sidenav-trigger:hover { /* so that hovering menu wont have the semi white background */
+    background-color: #FFB485 !important;
+}
+
+.parallax-container {
+    width: 100%;
+    height: 300px !important;
+}
+
+.title {
+    padding-top: 20px;
+    font-size: 45px;
+    font-weight: bold;
+    color: #9B3C00;
+}
+
+.intro {
+    font-size: 20px;
+    color: #9B3C00;
+}
+
+.btn {
+    width: 300px !important;
+    margin: 5px;
+    padding: 10px !important;
+    height: auto !important;
+    background-color: #9B3C00 !important;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.socmed-icon {
+    background-color:#9B3C00 !important;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.socmed-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-copyright {
+    background-color: #FFB485;
+    padding: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #9B3C00;
+}
+
+.tabs {
+    background-color: #FFE3D1 !important;
+    color: #9B3C00 !important;
+}
+
+.tabs .indicator {
+    background-color: #9B3C00 !important;
+}
+
+.tabs .tab a {
+    background: transparent !important;
+    color: #9B3C00 !important;
+    min-width: 300px;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active {
+    color: #9B3C00 !important;
+    margin: 0px;
+}
+
+.card {
+    margin: 10px !important;
+    margin-top: 50px !important;
+}
+
+.card-image {
+    box-shadow: 0px 6px 5px -5px !important;
+}
+
+.card-title {
+    color: #4E1E00 !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.card-content p {
+    color: #9B3C00;
+    text-align: justify;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.card-action {
+    color: #4E1E00;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2px !important;
+}
+
+.card-action:hover, .card-title:hover {
+    color: #af4300 !important;
+}
+
+.dimsum-content {
+    font-weight: bold;
+    text-align: center !important;
+}
+
+.thumb-up-icon {
+    background-color: #9B3C00 !important;
+}
+
+  /* label color */
+  .input-field label {
+    color: #9B3C00 !important;
+  }
+
+  .input-field input {
+      background-color: #FFE3D1 !important;
+  }
+
+  /* label focus color */
+  .input-field input:focus {
+    color: #9B3C00 !important;
+  }
+
+  .inputfield .placeholder {
+      color: white !important;
+  }
+
+  /* label underline focus color */
+  .input-field input:focus {
+    border-bottom: 1px solid #9B3C00 !important;
+    box-shadow: 0 1px 0 0 #9B3C00 !important;
+  }
+
+  .input-field input:active {
+    border-bottom: 1px solid #9B3C00 !important;
+    box-shadow: 0 1px 0 0 #9B3C00 !important;
+  }
+
+  /* valid color */
+  .input-field input.valid {
+    border-bottom: 1px solid #00581b;
+    box-shadow: 0 1px 0 0 #00581b;
+  }
+
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #9b0000;
+    box-shadow: 0 1px 0 0 #9b0000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #9B3C00 !important;
+  }
+
+  .input-field .prefix {
+    color: #4E1E00 !important;
+  }
+
+  .datepicker-date-display {
+    background-color: #9B3C00 !important;
+  }
+
+
+  .datepicker-done,
+  .datepicker-cancel,
+  .select-dropdown li>span,
+  .is-today {
+      color: #9B3C00 !important
+  }
+
+  td.is-selected,
+  .month-prev:active,
+  .month-prev:focus,
+  .month-next:active,
+  .month-next:focus {
+      background-color: #9B3C00 !important
+  }
+
+  td.is-selected.is-today {
+      color: white !important
+  }
+
+  .timepicker-digital-display {
+    -webkit-box-flex: 1;
+    flex: 1 auto;
+    background-color: #9B3C00 !important;
+    padding: 10px;
+    font-weight: 300;
+  }
+
+  .timepicker-plate {
+     background-color: #9B3C00 !important;
+  }
+
+  .timepicker-tick {
+      color: white !important;
+  }
+
+  .timepicker-tick.active {
+    background: #9B3C00 !important;
+  }
+
+  .timepicker-canvas line {
+    stroke: #4E1E00 !important;
+  }
+
+  .timepicker-canvas-bg {
+    fill: #4E1E00 !important;
+  }
+  
+  .timepicker-canvas-bearing {
+    fill: #4E1E00 !important;
+  }
+
+
+@media screen and (max-width: 670px) {
+    .logo {
+        max-height: 40px;
+        position: absolute;
+        right: 0px;
+    }
+
+    .nav-wrapper .brand-logo {
+        font-size: 20px !important;
+        font-weight: bold;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .intro {
+        font-size: 20px;
+    }
+
+    .btn {
+        width: 90% !important;
+    }
+
+    .socmed-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-title {
+        color: #4E1E00 !important;
+        font-weight: bold !important;
+        font-size: 20px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        line-height: 1.5em !important;
+    }
+    
+    .card-content p {
+        color: #9B3C00;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .tabs .tab a {
+        min-width: 50%;   
+    }
+
+}
